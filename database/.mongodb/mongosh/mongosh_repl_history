@@ -1,0 +1,30 @@
+show users
+use clinic_reservation
+show users
+use clinic_reservation
+show users
+use clinic_reservation
+show users
+db.users.find()
+show users
+db.users.find()
+show tables
+use clinic_reservation
+show tables
+use clinic_reservation
+show tables
+use clinic_reservation
+show databases
+db.createCollection('appointments')
+show tables
+db.bookings.drop()
+show tables
+show collections
+db.createCollection('users')
+db.createCollection('bookings')
+show dbs
+use clinic_reservation
+show dbs
+use clicic
+use test
+show dbs
