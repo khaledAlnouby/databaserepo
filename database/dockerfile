@@ -1,7 +1,11 @@
 FROM mongo:latest
 
+# Create a directory for MongoDB data
+RUN mkdir -p /data/db \
+    && chown -R mongodb:mongodb /data/db
+
+# Expose MongoDB port
 EXPOSE 27017
 
-VOLUME /data/db
-
+# Start MongoDB
 CMD ["mongod"]
